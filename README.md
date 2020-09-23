@@ -1,12 +1,14 @@
 # Electrophone
 
+Fork of https://github.com/TomWhitwell/Electrophone with old Eagle files converted to .fbrd, and KiCad conversions.
+
 Electrophone is a Eurorack module containing a full-sized single coil guitar pickup.  
 
 This module is a sister to the Mikrophonie Contact Mic Module and Magnetophone Tape Head Module. The Mikrophonie picks up physical vibrations, while Electrophone can hear electromagnetic vibrations. Guitar pickups are designed to convert vibrating metal (strings) into audio, but single coil pickups are also notoriously susceptible to interference of all kinds; hum from transformers, fluorescent lights or even radio signals.
 
 This module is named after the [Epiphone Electrophone](http://www.oldfrets.com/Electrophone.html) an electric guitar from 1935.  
 
-More information: 
+More information (links to Tom Whitwell's repository): 
 - [FAQ](https://github.com/TomWhitwell/Electrophone/wiki/Music-Thing-Electrophone:-FAQ) 
 - [BOM](https://github.com/TomWhitwell/Electrophone/wiki/Music-Thing-Elecrophone:-BOM)
 - [Troubleshooting](https://github.com/TomWhitwell/Electrophone/wiki/Music-Thing-Electrophone:-Troubleshooting)

@@ -1,0 +1,796 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 11774 8355
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2700 6500 2600 6500
+Text Label 2700 6500 0    70   ~ 0
+GND
+Wire Wire Line
+	4800 3000 4800 2900
+Text Label 4800 3000 0    10   ~ 0
+GND
+Wire Wire Line
+	5700 3400 5700 3300
+Text Label 5700 3400 0    10   ~ 0
+GND
+Wire Wire Line
+	7100 3500 7100 3600
+Text Label 7100 3500 0    10   ~ 0
+GND
+Wire Wire Line
+	3500 6300 3500 6200
+Wire Wire Line
+	3500 6200 3900 6200
+Wire Wire Line
+	3900 6200 3900 6300
+Connection ~ 3500 6200
+Text Label 3500 6300 0    10   ~ 0
+GND
+Wire Wire Line
+	4400 6400 4400 6300
+Wire Wire Line
+	4400 6300 4800 6300
+Connection ~ 4400 6300
+Text Label 4400 6400 0    10   ~ 0
+GND
+Wire Wire Line
+	6000 6300 6000 6400
+Wire Wire Line
+	6000 6400 6000 6600
+Wire Wire Line
+	6000 6400 6300 6400
+Wire Wire Line
+	6300 6400 6300 6500
+Connection ~ 6000 6400
+Text Label 6000 6300 0    10   ~ 0
+GND
+Wire Wire Line
+	3300 3400 3300 3300
+Wire Wire Line
+	3300 3300 3300 2900
+Wire Wire Line
+	2700 3300 3300 3300
+Connection ~ 3300 3300
+Text Label 3300 3400 0    10   ~ 0
+GND
+Wire Wire Line
+	8700 3200 8500 3400
+Text Label 8700 3200 0    10   ~ 0
+GND
+Wire Wire Line
+	4600 3900 4900 4200
+Text Label 4600 3900 0    10   ~ 0
+GND
+Wire Wire Line
+	6300 3900 6500 4100
+Text Label 6300 3900 0    10   ~ 0
+GND
+Wire Wire Line
+	4400 6000 5000 6000
+Wire Wire Line
+	5000 6000 5000 6100
+Wire Wire Line
+	4400 6000 4400 5900
+Connection ~ 4400 6000
+Text Label 4400 6000 0    10   ~ 0
++12V
+Wire Wire Line
+	6800 6000 6600 6000
+Text Label 6800 6000 0    70   ~ 0
++12V
+Wire Wire Line
+	3500 6800 3500 6600
+Text Label 3500 6800 0    10   ~ 0
+-12V
+Wire Wire Line
+	4400 6750 4400 6700
+Wire Wire Line
+	5000 6700 4400 6700
+Connection ~ 4400 6700
+Text Label 4400 6750 0    10   ~ 0
+-12V
+Wire Wire Line
+	6800 6900 6600 6900
+Text Label 6800 6900 0    70   ~ 0
+-12V
+Wire Wire Line
+	8000 2600 7800 2600
+Wire Wire Line
+	7800 2600 7700 2600
+Wire Wire Line
+	7800 2600 7800 3600
+Wire Wire Line
+	7700 3600 7800 3600
+Connection ~ 7800 2600
+Wire Wire Line
+	8900 2600 8400 2600
+Wire Wire Line
+	8900 2600 8900 3500
+Wire Wire Line
+	8500 3500 8900 3500
+Wire Wire Line
+	5900 2900 5700 2900
+Wire Wire Line
+	5700 2900 5700 2600
+Connection ~ 5700 2900
+Wire Wire Line
+	7100 2700 7100 3000
+Wire Wire Line
+	7100 3000 7100 3100
+Wire Wire Line
+	7300 3000 7100 3000
+Connection ~ 7100 3000
+Wire Wire Line
+	2700 6300 2600 6300
+Text Label 2700 6300 0    70   ~ 0
++12V_INLET
+Wire Wire Line
+	6200 6000 6000 6000
+Wire Wire Line
+	6000 6000 6000 6100
+Wire Wire Line
+	6000 6000 5600 6000
+Connection ~ 6000 6000
+Text Label 5600 6000 0    70   ~ 0
++12V_INLET
+Wire Wire Line
+	2700 6700 2600 6700
+Text Label 2700 6700 0    70   ~ 0
+-12V_INLET
+Wire Wire Line
+	5600 6900 6000 6900
+Wire Wire Line
+	6000 6900 6200 6900
+Wire Wire Line
+	6000 6800 6000 6900
+Text Label 5600 6900 0    70   ~ 0
+-12V_INLET
+Connection ~ 6000 6900
+Wire Wire Line
+	7700 3000 7700 3500
+Wire Wire Line
+	3600 4400 4000 4400
+Wire Wire Line
+	3200 4400 3300 4400
+Text Label 3200 4400 2    70   ~ 0
+FUZZ_IN
+Wire Wire Line
+	6300 2500 6400 2500
+Wire Wire Line
+	6400 2500 6400 2900
+Wire Wire Line
+	6300 2900 6400 2900
+Wire Wire Line
+	6400 2500 6700 2500
+Wire Wire Line
+	6700 2500 7100 2500
+Wire Wire Line
+	6700 2700 6700 2500
+Connection ~ 6400 2500
+Connection ~ 6700 2500
+Text Label 6700 2700 3    70   ~ 0
+FUZZ_IN
+Wire Wire Line
+	8500 3600 8900 3600
+Wire Wire Line
+	8900 3600 8900 4200
+Wire Wire Line
+	8900 4200 8000 4200
+Wire Wire Line
+	2700 2800 3300 2800
+Wire Wire Line
+	3300 2700 3200 2700
+Wire Wire Line
+	3200 2700 3200 2500
+Wire Wire Line
+	3200 2500 4800 2500
+Wire Wire Line
+	4800 2500 5700 2500
+Wire Wire Line
+	5700 2500 5700 2400
+Connection ~ 4800 2500
+Wire Wire Line
+	4400 4400 4600 4400
+Wire Wire Line
+	4600 4400 4900 4400
+Wire Wire Line
+	5100 5100 4600 5100
+Wire Wire Line
+	4600 5100 4600 4800
+Wire Wire Line
+	4600 4800 4600 4400
+Wire Wire Line
+	5100 5300 4600 5300
+Wire Wire Line
+	4600 5300 4600 5100
+Wire Wire Line
+	5100 4800 4600 4800
+Connection ~ 4600 4400
+Connection ~ 4600 5100
+Connection ~ 4600 4800
+Wire Wire Line
+	5500 4300 5700 4300
+Wire Wire Line
+	5700 4300 5900 4300
+Wire Wire Line
+	5300 5100 5700 5100
+Wire Wire Line
+	5700 5100 5700 4800
+Wire Wire Line
+	5700 4800 5700 4300
+Wire Wire Line
+	5300 5300 5700 5300
+Wire Wire Line
+	5700 5300 5700 5100
+Wire Wire Line
+	5400 4800 5700 4800
+Connection ~ 5700 4300
+Connection ~ 5700 5100
+Connection ~ 5700 4800
+Wire Wire Line
+	6500 4300 6400 4300
+Wire Wire Line
+	6400 4300 6300 4300
+Wire Wire Line
+	6600 4800 6400 4800
+Wire Wire Line
+	6400 4800 6400 4300
+Connection ~ 6400 4300
+Wire Wire Line
+	7600 4200 7300 4200
+Wire Wire Line
+	7300 4200 7100 4200
+Wire Wire Line
+	7000 4800 7300 4800
+Wire Wire Line
+	7300 4800 7300 4200
+Connection ~ 7300 4200
+$Comp
+L PickupBoard-eagle-import:TL074_ U1
+U 1 1 F9562130
+P 6000 2500
+F 0 "U1" H 6100 2625 59  0001 L BNN
+F 1 "TL074_" H 6100 2300 59  0001 L BNN
+F 2 "PickupBoard:DIL14" H 6000 2500 50  0001 C CNN
+F 3 "" H 6000 2500 50  0001 C CNN
+	1    6000 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L PickupBoard-eagle-import:TL074_ U1
+U 4 1 F9562124
+P 7400 2600
+F 0 "U1" H 7500 2725 59  0001 L BNN
+F 1 "TL074_" H 7500 2400 59  0001 L BNN
+F 2 "PickupBoard:DIL14" H 7400 2600 50  0001 C CNN
+F 3 "" H 7400 2600 50  0001 C CNN
+	4    7400 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PickupBoard-eagle-import:RESISTOR7MM R5
+U 1 1 DB5F3C12
+P 4800 2700
+F 0 "R5" H 4650 2759 59  0000 L BNN
+F 1 "1m" H 4650 2570 59  0000 L BNN
+F 2 "PickupBoard:7MM_RESISTOR" H 4800 2700 50  0001 C CNN
+F 3 "" H 4800 2700 50  0001 C CNN
+	1    4800 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L PickupBoard-eagle-import:GND #SUPPLY04
+U 1 1 6DF68C43
+P 4800 3100
+F 0 "#SUPPLY04" H 4800 3100 50  0001 C CNN
+F 1 "GND" H 4700 3000 59  0000 L BNN
+F 2 "" H 4800 3100 50  0001 C CNN
+F 3 "" H 4800 3100 50  0001 C CNN
+	1    4800 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L PickupBoard-eagle-import:RESISTOR7MM R14
+U 1 1 FA8B2950
+P 7500 3000
+F 0 "R14" H 7350 3059 59  0000 L BNN
+F 1 "2.2k" H 7350 2870 59  0000 L BNN
+F 2 "PickupBoard:7MM_RESISTOR" H 7500 3000 50  0001 C CNN
+F 3 "" H 7500 3000 50  0001 C CNN
+	1    7500 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L PickupBoard-eagle-import:RESISTOR7MM R16
+U 1 1 760771E6
+P 8200 2600
+F 0 "R16" H 8050 2659 59  0000 L BNN
+F 1 "220R" H 8050 2470 59  0000 L BNN
+F 2 "PickupBoard:7MM_RESISTOR" H 8200 2600 50  0001 C CNN
+F 3 "" H 8200 2600 50  0001 C CNN
+	1    8200 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PickupBoard-eagle-import:RESISTOR7MM R8
+U 1 1 41D07F0A
+P 5700 3100
+F 0 "R8" H 5550 3159 59  0000 L BNN
+F 1 "10k" H 5550 2970 59  0000 L BNN
+F 2 "PickupBoard:7MM_RESISTOR" H 5700 3100 50  0001 C CNN
+F 3 "" H 5700 3100 50  0001 C CNN
+	1    5700 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PickupBoard-eagle-import:RESISTOR7MM R10
+U 1 1 6C33089F
+P 6100 2900
+F 0 "R10" H 5950 2959 59  0000 L BNN
+F 1 "56k" H 5950 2770 59  0000 L BNN
+F 2 "PickupBoard:7MM_RESISTOR" H 6100 2900 50  0001 C CNN
+F 3 "" H 6100 2900 50  0001 C CNN
+	1    6100 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L PickupBoard-eagle-import:GND #SUPPLY09
+U 1 1 7F737C64
+P 5700 3500
+F 0 "#SUPPLY09" H 5700 3500 50  0001 C CNN
+F 1 "GND" H 5600 3400 59  0000 L BNN
+F 2 "" H 5700 3500 50  0001 C CNN
+F 3 "" H 5700 3500 50  0001 C CNN
+	1    5700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L PickupBoard-eagle-import:RESISTOR7MM R12
+U 1 1 D1AA1D7C
+P 7100 3300
+F 0 "R12" H 6950 3359 59  0000 L BNN
+F 1 "2.2k" H 6950 3170 59  0000 L BNN
+F 2 "PickupBoard:7MM_RESISTOR" H 7100 3300 50  0001 C CNN
+F 3 "" H 7100 3300 50  0001 C CNN
+	1    7100 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PickupBoard-eagle-import:GND #SUPPLY05
+U 1 1 FD320F9F
+P 7100 3700
+F 0 "#SUPPLY05" H 7100 3700 50  0001 C CNN
+F 1 "GND" H 7000 3600 59  0000 L BNN
+F 2 "" H 7100 3700 50  0001 C CNN
+F 3 "" H 7100 3700 50  0001 C CNN
+	1    7100 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L PickupBoard-eagle-import:GND #GND021
+U 1 1 CF593DC2
+P 3900 6400
+F 0 "#GND021" H 3900 6400 50  0001 C CNN
+F 1 "GND" H 3800 6300 59  0000 L BNN
+F 2 "" H 3900 6400 50  0001 C CNN
+F 3 "" H 3900 6400 50  0001 C CNN
+	1    3900 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L PickupBoard-eagle-import:-12V #SUPPLY016
+U 1 1 268EB7DE
+P 3500 6900
+F 0 "#SUPPLY016" H 3500 6900 50  0001 C CNN
+F 1 "-12V" H 3375 6715 59  0000 L BNN
+F 2 "" H 3500 6900 50  0001 C CNN
+F 3 "" H 3500 6900 50  0001 C CNN
+	1    3500 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L PickupBoard-eagle-import:+12V #SUPPLY017
+U 1 1 65B39815
+P 3500 5800
+F 0 "#SUPPLY017" H 3500 5800 50  0001 C CNN
+F 1 "+12V" H 3400 5925 59  0000 L BNN
+F 2 "" H 3500 5800 50  0001 C CNN
+F 3 "" H 3500 5800 50  0001 C CNN
+	1    3500 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L PickupBoard-eagle-import:CAP_POLPTH2 C1
+U 1 1 1C3B7E2E
+P 3500 6000
+F 0 "C1" H 3540 6025 59  0000 L BNN
+F 1 "10uf" H 3540 5835 59  0000 L BNN
+F 2 "PickupBoard:CPOL-RADIAL-10UF-25V" H 3500 6000 50  0001 C CNN
+F 3 "" H 3500 6000 50  0001 C CNN
+	1    3500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L PickupBoard-eagle-import:GND #GND022
+U 1 1 FB1CD9CF
+P 4800 6400
+F 0 "#GND022" H 4800 6400 50  0001 C CNN
+F 1 "GND" H 4700 6300 59  0000 L BNN
+F 2 "" H 4800 6400 50  0001 C CNN
+F 3 "" H 4800 6400 50  0001 C CNN
+	1    4800 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L PickupBoard-eagle-import:-12V #SUPPLY018
+U 1 1 F59CD171
+P 4400 6850
+F 0 "#SUPPLY018" H 4400 6850 50  0001 C CNN
+F 1 "-12V" H 4275 6665 59  0000 L BNN
+F 2 "" H 4400 6850 50  0001 C CNN
+F 3 "" H 4400 6850 50  0001 C CNN
+	1    4400 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PickupBoard-eagle-import:+12V #SUPPLY019
+U 1 1 4114ABC6
+P 4400 5800
+F 0 "#SUPPLY019" H 4400 5800 50  0001 C CNN
+F 1 "+12V" H 4300 5925 59  0000 L BNN
+F 2 "" H 4400 5800 50  0001 C CNN
+F 3 "" H 4400 5800 50  0001 C CNN
+	1    4400 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L PickupBoard-eagle-import:C-EU050-024X044 C4
+U 1 1 284EA6E9
+P 4400 6200
+F 0 "C4" V 4330 6005 59  0000 L BNN
+F 1 "100n" V 4550 5995 59  0000 L BNN
+F 2 "PickupBoard:C050-024X044" H 4400 6200 50  0001 C CNN
+F 3 "" H 4400 6200 50  0001 C CNN
+	1    4400 6200
+	-1   0    0    1   
+$EndComp
+$Comp
+L PickupBoard-eagle-import:C-EU050-024X044 C5
+U 1 1 F9108C4C
+P 4400 6500
+F 0 "C5" V 4330 6305 59  0000 L BNN
+F 1 "100n" V 4550 6295 59  0000 L BNN
+F 2 "PickupBoard:C050-024X044" H 4400 6500 50  0001 C CNN
+F 3 "" H 4400 6500 50  0001 C CNN
+	1    4400 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L PickupBoard-eagle-import:CAP_POLPTH2 C2
+U 1 1 54BE400D
+P 3500 6400
+F 0 "C2" H 3540 6425 59  0000 L BNN
+F 1 "10uf" H 3540 6235 59  0000 L BNN
+F 2 "PickupBoard:CPOL-RADIAL-10UF-25V" H 3500 6400 50  0001 C CNN
+F 3 "" H 3500 6400 50  0001 C CNN
+	1    3500 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L PickupBoard-eagle-import:1N4004 D5
+U 1 1 3BA5D236
+P 6000 6200
+F 0 "D5" H 6100 6219 59  0000 L BNN
+F 1 "1N4001" H 6100 6109 59  0000 L BNN
+F 2 "PickupBoard:DO41-10" H 6000 6200 50  0001 C CNN
+F 3 "" H 6000 6200 50  0001 C CNN
+	1    6000 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PickupBoard-eagle-import:1N4004 D6
+U 1 1 44BA139D
+P 6000 6700
+F 0 "D6" H 6100 6719 59  0000 L BNN
+F 1 "1N4001" H 6100 6609 59  0000 L BNN
+F 2 "PickupBoard:DO41-10" H 6000 6700 50  0001 C CNN
+F 3 "" H 6000 6700 50  0001 C CNN
+	1    6000 6700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PickupBoard-eagle-import:PTC_FUSEPOLY_FUSE UNK1
+U 1 1 5F951D6B
+P 6400 6000
+F 0 "UNK1" H 6400 6000 50  0001 C CNN
+F 1 "FUSE" H 6400 6000 50  0001 C CNN
+F 2 "PickupBoard:C050H075X075" H 6400 6000 50  0001 C CNN
+F 3 "" H 6400 6000 50  0001 C CNN
+	1    6400 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L PickupBoard-eagle-import:PTC_FUSEPOLY_FUSE FUSE1
+U 1 1 0B7F0F6C
+P 6400 6900
+F 0 "FUSE1" H 6400 6900 50  0001 C CNN
+F 1 "FUSE" H 6400 6900 50  0001 C CNN
+F 2 "PickupBoard:C050H075X075" H 6400 6900 50  0001 C CNN
+F 3 "" H 6400 6900 50  0001 C CNN
+	1    6400 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L PickupBoard-eagle-import:GND #SUPPLY020
+U 1 1 11576E5E
+P 6300 6600
+F 0 "#SUPPLY020" H 6300 6600 50  0001 C CNN
+F 1 "GND" H 6200 6500 59  0000 L BNN
+F 2 "" H 6300 6600 50  0001 C CNN
+F 3 "" H 6300 6600 50  0001 C CNN
+	1    6300 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PickupBoard-eagle-import:A4L-LOC #FRAME1
+U 1 1 73DA64CA
+P 900 7500
+F 0 "#FRAME1" H 900 7500 50  0001 C CNN
+F 1 "A4L-LOC" H 900 7500 50  0001 C CNN
+F 2 "" H 900 7500 50  0001 C CNN
+F 3 "" H 900 7500 50  0001 C CNN
+	1    900  7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L PickupBoard-eagle-import:C-EU050-024X044 C3
+U 1 1 4B4F90A9
+P 3500 4400
+F 0 "C3" V 3430 4205 59  0000 L BNN
+F 1 "470n" V 3650 4195 59  0000 L BNN
+F 2 "PickupBoard:C050-024X044" H 3500 4400 50  0001 C CNN
+F 3 "" H 3500 4400 50  0001 C CNN
+	1    3500 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L PickupBoard-eagle-import:TL074_ U1
+U 2 1 F956213C
+P 5200 4300
+F 0 "U1" H 5300 4425 59  0001 L BNN
+F 1 "TL074_" H 5300 4100 59  0001 L BNN
+F 2 "PickupBoard:DIL14" H 5200 4300 50  0001 C CNN
+F 3 "" H 5200 4300 50  0001 C CNN
+	2    5200 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L PickupBoard-eagle-import:TL074_ U1
+U 5 1 F9562120
+P 5000 6400
+F 0 "U1" H 5100 6525 59  0001 L BNN
+F 1 "TL074_" H 5100 6200 59  0001 L BNN
+F 2 "PickupBoard:DIL14" H 5000 6400 50  0001 C CNN
+F 3 "" H 5000 6400 50  0001 C CNN
+	5    5000 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L PickupBoard-eagle-import:RESISTOR7MM R2
+U 1 1 221E3EC4
+P 7800 4200
+F 0 "R2" H 7650 4259 59  0000 L BNN
+F 1 "220R" H 7650 4070 59  0000 L BNN
+F 2 "PickupBoard:7MM_RESISTOR" H 7800 4200 50  0001 C CNN
+F 3 "" H 7800 4200 50  0001 C CNN
+	1    7800 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L PickupBoard-eagle-import:SWCRAFT_112B U$1
+U 1 1 BABD3B23
+P 3500 2800
+F 0 "U$1" H 3400 2960 59  0000 L BNN
+F 1 "SWCRAFT_112B" H 3400 2560 59  0000 L BNN
+F 2 "PickupBoard:SWCRAFT_112_SLOTS" H 3500 2800 50  0001 C CNN
+F 3 "" H 3500 2800 50  0001 C CNN
+	1    3500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L PickupBoard-eagle-import:EURO_POWER_LOCK U$2
+U 1 1 A8B04D1A
+P 2400 6500
+F 0 "U$2" H 2400 6500 50  0001 C CNN
+F 1 "EURO_POWER_LOCK" H 2400 6500 50  0001 C CNN
+F 2 "PickupBoard:EURO_PWR_HEADER_LOCK" H 2400 6500 50  0001 C CNN
+F 3 "" H 2400 6500 50  0001 C CNN
+	1    2400 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L PickupBoard-eagle-import:TL074_ U1
+U 3 1 F9562138
+P 6800 4200
+F 0 "U1" H 6900 4325 59  0001 L BNN
+F 1 "TL074_" H 6900 4000 59  0001 L BNN
+F 2 "PickupBoard:DIL14" H 6800 4200 50  0001 C CNN
+F 3 "" H 6800 4200 50  0001 C CNN
+	3    6800 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L PickupBoard-eagle-import:M03LOCK JP1
+U 1 1 2F430EF2
+P 8200 3500
+F 0 "JP1" H 8100 3730 59  0000 L BNN
+F 1 "M03LOCK" H 8100 3200 59  0000 L BNN
+F 2 "PickupBoard:1X03_LOCK" H 8200 3500 50  0001 C CNN
+F 3 "" H 8200 3500 50  0001 C CNN
+	1    8200 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L PickupBoard-eagle-import:M02LOCK JP2
+U 1 1 FA93C76E
+P 7400 3600
+F 0 "JP2" H 7300 3830 59  0000 L BNN
+F 1 "M02LOCK" H 7300 3400 59  0000 L BNN
+F 2 "PickupBoard:1X02_LOCK" H 7400 3600 50  0001 C CNN
+F 3 "" H 7400 3600 50  0001 C CNN
+	1    7400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PickupBoard-eagle-import:GND #SUPPLY03
+U 1 1 D5692080
+P 3300 3500
+F 0 "#SUPPLY03" H 3300 3500 50  0001 C CNN
+F 1 "GND" H 3200 3400 59  0000 L BNN
+F 2 "" H 3300 3500 50  0001 C CNN
+F 3 "" H 3300 3500 50  0001 C CNN
+	1    3300 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L PickupBoard-eagle-import:GND #SUPPLY06
+U 1 1 C21E2EB3
+P 8700 3300
+F 0 "#SUPPLY06" H 8700 3300 50  0001 C CNN
+F 1 "GND" H 8600 3200 59  0000 L BNN
+F 2 "" H 8700 3300 50  0001 C CNN
+F 3 "" H 8700 3300 50  0001 C CNN
+	1    8700 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L PickupBoard-eagle-import:M01PTH_2MM JP3
+U 1 1 ACD8E5B6
+P 2400 2800
+F 0 "JP3" H 2300 2930 59  0000 L BNN
+F 1 "M01PTH_2MM" H 2300 2600 59  0000 L BNN
+F 2 "PickupBoard:1X01_2MM" H 2400 2800 50  0001 C CNN
+F 3 "" H 2400 2800 50  0001 C CNN
+	1    2400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L PickupBoard-eagle-import:M01PTH_2MM JP4
+U 1 1 47274FB3
+P 2400 3300
+F 0 "JP4" H 2300 3430 59  0000 L BNN
+F 1 "M01PTH_2MM" H 2300 3100 59  0000 L BNN
+F 2 "PickupBoard:1X01_2MM" H 2400 3300 50  0001 C CNN
+F 3 "" H 2400 3300 50  0001 C CNN
+	1    2400 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L PickupBoard-eagle-import:RESISTOR7MM R1
+U 1 1 B9BAFB95
+P 4200 4400
+F 0 "R1" H 4050 4459 59  0000 L BNN
+F 1 "10k" H 4050 4270 59  0000 L BNN
+F 2 "PickupBoard:7MM_RESISTOR" H 4200 4400 50  0001 C CNN
+F 3 "" H 4200 4400 50  0001 C CNN
+	1    4200 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L PickupBoard-eagle-import:GND #SUPPLY01
+U 1 1 E46721A6
+P 4600 4000
+F 0 "#SUPPLY01" H 4600 4000 50  0001 C CNN
+F 1 "GND" H 4500 3900 59  0000 L BNN
+F 2 "" H 4600 4000 50  0001 C CNN
+F 3 "" H 4600 4000 50  0001 C CNN
+	1    4600 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L PickupBoard-eagle-import:SMALL_DIODEDO35-7 D1
+U 1 1 8A755ED4
+P 5200 5100
+F 0 "D1" H 5300 5119 59  0000 L BNN
+F 1 "1N4148" H 5300 5009 59  0000 L BNN
+F 2 "PickupBoard:DO35-7" H 5200 5100 50  0001 C CNN
+F 3 "" H 5200 5100 50  0001 C CNN
+	1    5200 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L PickupBoard-eagle-import:SMALL_DIODEDO35-7 D2
+U 1 1 2726CE93
+P 5200 5300
+F 0 "D2" H 5300 5319 59  0000 L BNN
+F 1 "1N4148" H 5300 5209 59  0000 L BNN
+F 2 "PickupBoard:DO35-7" H 5200 5300 50  0001 C CNN
+F 3 "" H 5200 5300 50  0001 C CNN
+	1    5200 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L PickupBoard-eagle-import:C-EU050-024X044 C6
+U 1 1 9D2F2F7C
+P 5200 4800
+F 0 "C6" V 5130 4605 59  0000 L BNN
+F 1 "470pf" V 5350 4595 59  0000 L BNN
+F 2 "PickupBoard:C050-024X044" H 5200 4800 50  0001 C CNN
+F 3 "" H 5200 4800 50  0001 C CNN
+	1    5200 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PickupBoard-eagle-import:RESISTOR7MM R4
+U 1 1 98DC0D12
+P 6100 4300
+F 0 "R4" H 5950 4359 59  0000 L BNN
+F 1 "10k" H 5950 4170 59  0000 L BNN
+F 2 "PickupBoard:7MM_RESISTOR" H 6100 4300 50  0001 C CNN
+F 3 "" H 6100 4300 50  0001 C CNN
+	1    6100 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L PickupBoard-eagle-import:GND #SUPPLY02
+U 1 1 33EFDB7C
+P 6300 4000
+F 0 "#SUPPLY02" H 6300 4000 50  0001 C CNN
+F 1 "GND" H 6200 3900 59  0000 L BNN
+F 2 "" H 6300 4000 50  0001 C CNN
+F 3 "" H 6300 4000 50  0001 C CNN
+	1    6300 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L PickupBoard-eagle-import:RESISTOR7MM R6
+U 1 1 0309F1BD
+P 6800 4800
+F 0 "R6" H 6650 4859 59  0000 L BNN
+F 1 "100k" H 6650 4670 59  0000 L BNN
+F 2 "PickupBoard:7MM_RESISTOR" H 6800 4800 50  0001 C CNN
+F 3 "" H 6800 4800 50  0001 C CNN
+	1    6800 4800
+	1    0    0    -1  
+$EndComp
+Text Notes 5600 2100 0    59   ~ 0
+Non-inverting stage\n5 x gain 
+Text Notes 7100 2100 0    59   ~ 0
+Non inverting stage\n1-26 x gain\nTotal gain =  5-130 
+Text Notes 6700 6500 0    59   ~ 0
+Optional reverse polarity protection\nIf not required, omit diodes and replace\nfuses with jumper wire. \nDon't get it the wrong way around~ 
+Text Notes 1300 1800 0    127  ~ 0
+Connections:\nPickup Red/Black -> Socket SWITCH\nPickup White -> Socket SLEEVE\nPCB 'Socket_Slv' -> Socket SLEEVE\nPCB 'Socket_Tip' -> Socket TIP 
+$EndSCHEMATC
