@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name PickupDaughterBoard)(type KiCad)(uri "$(KIPRJMOD)/PickupDaughterBoard.pretty")(options "")(descr ""))
+)

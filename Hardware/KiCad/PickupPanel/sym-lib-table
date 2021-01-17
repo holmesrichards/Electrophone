@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name PickupPanel-eagle-import)(type Legacy)(uri ${KIPRJMOD}/PickupPanel-eagle-import.lib)(options "")(descr ""))
+)
